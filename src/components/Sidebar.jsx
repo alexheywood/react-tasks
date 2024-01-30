@@ -15,7 +15,7 @@ export default function Sidebar( {onStartAddProject, projects, onSelectProject, 
                 let style = "w-full text-left hover:text-stone-400 my-2 rounded-md";
 
                 if (project.id === selectedProjectId) {
-                    style += " bg-stone-800 text-stone-200"
+                    style += " bg-stone-50 text-stone-200"
                 }
                 else {
                     style += " text-stone-200"

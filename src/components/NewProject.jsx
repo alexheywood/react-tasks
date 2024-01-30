@@ -1,6 +1,6 @@
 import Button from "./Button";
 import Input from "./Input";
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import Modal from "./Modal";
 import Select from "./Select";
 
